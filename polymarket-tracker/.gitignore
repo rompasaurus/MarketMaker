@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+backend/src/PolymarketTracker.Api/bin/
+backend/src/PolymarketTracker.Api/obj/
+
+# Environment
+.env
+frontend/.env.local
+
+# IDE
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
